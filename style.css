@@ -685,6 +685,16 @@ body {
     box-shadow: 0 10px 25px rgba(0, 212, 255, 0.4);
 }
 
+/* X/Twitter icon specific styling */
+.social-icon .fa-x-twitter {
+    color: #FFD60A !important;
+    font-weight: bold;
+}
+
+.social-icon:hover .fa-x-twitter {
+    color: var(--dark-bg) !important;
+}
+
 .contact-form-placeholder {
     background: rgba(26, 35, 50, 0.6);
     border: 2px dashed rgba(0, 212, 255, 0.3);
