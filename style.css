@@ -671,28 +671,47 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid var(--primary-color);
+    border: none;
     border-radius: 50%;
-    color: var(--primary-color);
     transition: var(--transition);
     font-size: 1.2rem;
-}
-
-.social-icon:hover {
-    background: var(--primary-color);
-    color: var(--dark-bg);
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 212, 255, 0.4);
-}
-
-/* X/Twitter icon specific styling */
-.social-icon .fa-x-twitter {
-    color: #FFD60A !important;
     font-weight: bold;
 }
 
-.social-icon:hover .fa-x-twitter {
-    color: var(--dark-bg) !important;
+/* Instagram Icon */
+.social-icon:nth-child(1) {
+    background: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: #ffffff;
+}
+
+.social-icon:nth-child(1):hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(240, 148, 51, 0.6);
+    background: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+/* Facebook Icon */
+.social-icon:nth-child(2) {
+    background: linear-gradient(135deg, #1877f2 0%, #0a66c2 100%);
+    color: #ffffff;
+}
+
+.social-icon:nth-child(2):hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(24, 119, 242, 0.6);
+    background: linear-gradient(135deg, #1877f2 0%, #0a66c2 100%);
+}
+
+/* X/Twitter Icon */
+.social-icon:nth-child(3) {
+    background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+    color: #ffffff;
+}
+
+.social-icon:nth-child(3):hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.4);
+    background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%);
 }
 
 .contact-form-placeholder {
