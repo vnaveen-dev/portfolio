@@ -586,7 +586,7 @@ body {
     transition: var(--transition);
 }
 
-/* X/Twitter icon - Black icon with white background */
+/* X/Twitter icon - Keep white background, change icon color to black */
 .social-icon[title="Twitter/X"] {
     background: #ffffff;
     color: #000000;
