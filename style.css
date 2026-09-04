@@ -586,15 +586,15 @@ body {
     transition: var(--transition);
 }
 
-/* X/Twitter icon - Keep white background, change icon color to black */
+/* X/Twitter icon - Now matches the cyan theme */
 .social-icon[title="Twitter/X"] {
-    background: #ffffff;
-    color: #000000;
+    background: var(--primary-color);
+    color: var(--dark-bg);
 }
 
 .social-icon[title="Twitter/X"]:hover {
-    background: #f0f0f0;
     transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
 }
 
 .social-icon:hover {
