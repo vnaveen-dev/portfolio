@@ -594,7 +594,7 @@ body {
     color: #000000;
     transform: translateY(-3px);
     position: relative;
-    z-index: 10;
+    z-index: 40;
 }
 
 .social-icon[title="Twitter/X"] i {
